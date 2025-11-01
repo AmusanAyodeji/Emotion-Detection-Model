@@ -6,3 +6,4 @@ pillow
 numpy
 gunicorn
 requests
+tf-keras

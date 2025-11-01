@@ -3,7 +3,7 @@ import requests
 from PIL import Image
 import io
 
-BACKEND_URL = "http://localhost:8000/analyze"
+BACKEND_URL = "https://emotion-detection-api-ra6n.onrender.com/analyze"
 
 st.set_page_config(page_title='Emotion Detector', layout='centered')
 st.title('😊 Emotion Detection App')
