@@ -1,1 +1,1 @@
-https://your-deployed-app-url-here
+https://emotion-detection-app-3qre.onrender.com/

@@ -3,7 +3,7 @@ import cv2
 import os
 
 def analyze_image_local(image_path):
-    result = DeepFace.analyze(img_path = image_path, actions = ['emotion'], enforce_detection=True)
+    result = DeepFace.analyze(img_path = image_path, actions = ['emotion'], enforce_detection=False)
     out = {}
     if isinstance(result, list):
         result = result[0]
