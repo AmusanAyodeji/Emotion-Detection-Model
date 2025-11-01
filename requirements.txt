@@ -1,0 +1,8 @@
+streamlit
+flask
+deepface
+opencv-python
+pillow
+numpy
+gunicorn
+requests
