@@ -18,7 +18,8 @@ def analyze_image_local(img):
     result = DeepFace.analyze(
         img_path=img,
         actions=["emotion"],
-        enforce_detection=False
+        enforce_detection=False,
+        detector_backend='opencv'
     )
     if isinstance(result, list):
         result = result[0]
