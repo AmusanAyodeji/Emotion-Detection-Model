@@ -11,6 +11,9 @@ UPLOAD_FOLDER = os.path.join(os.getcwd(), "uploads")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({'message': 'Emotion Detection API is running!'})
 
 @app.route("/health", methods=["GET"])
 def health():
