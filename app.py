@@ -3,7 +3,7 @@ import requests
 from PIL import Image
 import io
 
-BACKEND_URL = "http://emotion-detection-model-production.up.railway.app/analyze"
+BACKEND_URL = "https://emotion-detection-model-production.up.railway.app/analyze"
 
 st.set_page_config(page_title='Emotion Detector', layout='centered')
 st.title('😊 Emotion Detection App')
